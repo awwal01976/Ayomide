@@ -1,0 +1,53 @@
+p{
+    width: 400px;
+    height: 400px;
+    /* background-color: lightblue; */
+    /* online image */
+    background-image: url('https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -50px 20px;
+
+    /* border-width: 20px;
+    border-style: ridge;
+    border-color: rgb(201, 201, 23) ; */
+    /* border:20px groove purple; */
+    border-top: 20px groove deeppink;
+    border-right: 20px double darkolivegreen;
+    border-bottom: 20px ridge deepskyblue;
+    border-left: 20px dashed black;
+
+    border-radius: 50%;
+
+    
+    
+}
+
+h1{
+    height: 20px;
+    width: auto;
+    border-radius:40px ;
+    background-color: blue; 
+    color: whiteblack;
+    height: auto;
+    /* text-align:center ;
+
+    /* padding: ; */
+    /* padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 80px; */
+    padding:30px 40px 50px 80px;
+
+    /* margin: ; */
+    /* margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 60px;
+    margin-bottom: 70px; */
+    margin:40px 80px 60px 70px ;
+}
+
+h3{
+    img
+}
+    

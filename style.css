@@ -1,0 +1,14 @@
+p{
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 30px;
+    font-size: 20px;
+    text-indent: 40px;
+    text-shadow: -20px -20px 1px #d21414;
+    color:#fae892;
+    font-weight:bold 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    text-decoration: wavy;
+    }
