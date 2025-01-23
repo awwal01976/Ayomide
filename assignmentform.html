@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: blue;
+
+        }
+
+        h1 {
+            font-size: 40px;
+            color: red;
+            text-align: center;
+            text-transform: capitalize;
+            background-color: antiquewhite;
+        }
+
+        table {
+            border: 2px solid black;
+            width: 300px;
+            border-collapse: collapse;
+            background-color: rgb(12, 219, 64) transparent;
+            padding: 5px 10px;
+            margin: 30px;
+        }
+
+        th {
+            border: 3px solid black;
+            padding: 5px 10px;
+            text-align: center;
+            background-color: rgb(226, 152, 152);
+            font-size: 20px;
+        }
+
+        tr {
+            border: 2px solid black;
+            padding: 5px 10px;
+            text-align: center;
+            background-color: rgb(233, 181, 221);
+        }
+
+        td {
+            border: 2px solid black;
+            padding: 5px 10px;
+            text-align: center;
+        }
+
+        th:hover {
+            background-color: purple;
+            color: white;
+            font-size: 25px;
+        }
+
+        tr:hover {
+            background-color: black;
+            color: yellow;
+            font-size: 25px;
+        }
+
+        td:hover {
+            background-color: red;
+            color: black;
+            font-size: 25px;
+        }
+
+       .title {
+            width: 100%;
+            font-size: 50px;
+            color: white;
+            text-align: center;
+            margin: 20px;
+            border-radius: 20px 20px 0px 0px;
+            background-color: inherit;
+
+        }
+
+        p {
+            width: 400px;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            margin: 0px;
+        }
+
+        .form {
+            width: 500px;
+            height: 700px;
+            justify-content: center;
+            justify-items: center;
+            background-color: rgb(3, 3, 46);
+            margin: auto;
+        }
+        .intro{
+            text-align: center;
+            margin: auto;
+
+        }
+
+        form {
+            width: 470px;
+            height: 400px;
+            background-color: white;
+            color: black;
+            font-size: 20px;
+            border: none;
+            border-radius: 10px;
+            position: relative;
+            top: 30px;
+
+        }
+
+        legend {
+            font-size: 20px;
+            text-align: center;
+            padding: 10px 10px;
+
+        }
+
+        input {
+            border: 1px solid gray;
+            border-radius: 3px;
+            margin: 5px 10px;
+            padding-right: 50%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+        }
+
+        button {
+            width: 300px;
+            padding: 10px 10px;
+            background-color: rgb(7, 187, 252);
+            color: white;
+            border: none;
+            text-align: center;
+            border-radius: 5px;
+            margin: auto;
+            font-size: 20px;
+            font-style: bold;
+            
+        }
+
+        button:hover {
+            background-color: rgb(255, 155, 155);
+            color: black;
+            border: none;
+            cursor: pointer;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+            transition: color 0.5s ease;
+            border: non solid black;
+            background-color: wheat;
+            margin: 10px 10px;
+            padding: 5px 10px;
+            font-size: 20px;
+            border-radius: 20px;
+        }
+
+        a:hover {
+            color: red;
+            background-color: black;
+            font-size: 15px;
+            text-decoration: underline;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    
+
+    <table>
+
+        <h1>This this a css styling table</h1>
+
+        <tr>
+            <th>Mollitia, iste?</th>
+            <th>Veritatis, accusamus?</th>
+            <th>Sed, voluptatem.</th>
+            <th>Ut, et!</th>
+            <th>Nesciunt, eveniet.</th>
+            <th>Maiores, quisquam?</th>
+            <th>Lorem, ipsum.</th>
+        </tr>
+        <tr>
+            <td>Lorem, ipsum.</td>
+            <td>Maxime, consequatur!</td>
+            <td>Inventore, beatae.</td>
+            <td>Id, reprehenderit.</td>
+            <td>Tenetur, enim.</td>
+            <td>Quia, doloribus!</td>
+            <td>Nesciunt, blanditiis.</td>
+        </tr>
+        <tr>
+            <td>Lorem, ipsum.</td>
+            <td>Hic, eius.</td>
+            <td>Voluptas, tenetur.</td>
+            <td>Earum, et.</td>
+            <td>A, possimus.</td>
+            <td>Molestiae, sint?</td>
+            <td>Atque, illo.</td>
+        </tr>
+        <tr>
+            <td>Lorem, ipsum.</td>
+            <td>Dolorum, aut?</td>
+            <td>Odio, minus.</td>
+            <td>Doloribus, explicabo!</td>
+            <td>Excepturi, veritatis.</td>
+            <td>Fuga, pariatur.</td>
+            <td>Nemo, minima?</td>
+        </tr>
+        <tr>
+            <td>Lorem, ipsum.</td>
+            <td>A, ab?</td>
+            <td>Vero, asperiores.</td>
+            <td>Tenetur, ipsa?</td>
+            <td>Vitae, magni?</td>
+            <td>Aperiam, neque?</td>
+            <td>Dignissimos, incidunt!</td>
+        </tr>
+        <tr>
+            <td>Lorem, ipsum.</td>
+            <td>Reprehenderit, quas.</td>
+            <td>Et, consequuntur.</td>
+            <td>Nesciunt, eos.</td>
+            <td>Excepturi, tempora.</td>
+            <td>Itaque, molestias.</td>
+            <td>Maiores, inventore.</td>
+        </tr>
+        <tr>
+            <td>Lorem, ipsum.</td>
+            <td>Ullam, omnis?</td>
+            <td>Impedit, ullam?</td>
+            <td>Perferendis, nihil!</td>
+            <td>Dicta, quasi.</td>
+            <td>Nulla, maiores.</td>
+            <td>Aliquid, fugiat?</td>
+        </tr>
+    </table>
+
+    <div class="form">
+
+        <h1 class="title">with Bridge</h1>
+        <p>Bidge provides cutting-edge ecommerce, business intelligence ,and content solutions for the beverage alcohol
+            industry.</p>
+
+        <form action="">
+            <h2 class="intro">Getting started is easy</h2>
+            <legend>Enter your information below to resquest a demo</legend>
+            <!-- <label for="">Full Name*</label> -->
+            <input type="text" id="name" name="Full Name " required placeholder="Full Name*"><br><br>
+            <!-- <label for="">Email Address*</label> -->
+            <input type="email" id="email" name="Email Address" required placeholder="Email Address*"><br><br>
+            <!-- <label for="">compagny*</label> -->
+            <input type="text" id="company" name="Company" required placeholder="Company *"><br><br>
+
+            <button>Request Demo</button>
+        </form>
+    </div>
+</body>
+
+</html>
